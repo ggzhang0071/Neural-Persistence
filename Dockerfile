@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.6.0-py3
+FROM nvcr.io/nvidia/tensorflow:19.05-py3
 RUN mkdir /Software
 WORKDIR /Software
 
